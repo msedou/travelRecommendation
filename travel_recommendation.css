@@ -1,5 +1,15 @@
+li#nav-item-search{
+    position: relative;
+    left:500px;
+    color: white;
+}
+
 body{
     margin: 0;
+    padding:0;
+    background-image: url("./images/voyages_touristique1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav{
@@ -19,6 +29,10 @@ li a{
     color:white;
     text-decoration: none;
 }
-li label{
-    color:white;
+
+li a img{
+    margin:0;
+    padding:0;
+    width: 20px;
+    height: 20px;
 }
